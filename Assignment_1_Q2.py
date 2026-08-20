@@ -1,0 +1,17 @@
+students = ["Aarav", "Isha", "Rohan", "Sneha", "Kabir"]
+print("Name of the third student:", students[2])
+students[2] = "Rohan Patil"
+print("Updated name of the third student:", students[2])
+students.extend(["Ananya", "Vihaan"])
+print("Updated list of students:", students)
+students.remove("Kabir")
+print("List of students after removing Kabir:", students)
+print("Total number of students:", len(students))
+print("is 'Isha' in the list of students?", "Isha" in students)
+students.sort()
+print("Sorted list of students:", students)
+backup_students = students.copy()
+print("Backup list of students:", backup_students)
+hackathon = ("Meera", "Arjun", "Isha")
+all_participants = students + list(hackathon)
+print("All participants in the hackathon:", all_participants)
